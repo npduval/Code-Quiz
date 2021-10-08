@@ -1,0 +1,28 @@
+* {
+    text-align:center;
+}
+
+
+header {
+    text-align: left;
+    font-size: 18px;
+}
+
+
+h1 {
+    margin: 100px 0 50px 0;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+p {
+    font-size: 18px;
+}
+
+button {
+    color: white;
+    background-color:rebeccapurple;
+    border-radius: 5px;
+    margin: 10px;
+
+}
