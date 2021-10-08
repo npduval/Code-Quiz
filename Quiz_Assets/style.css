@@ -2,12 +2,20 @@
     text-align:center;
 }
 
+:root {
+ --button:rebeccapurple;
+ --button-text:white;
+
+}
 
 header {
     text-align: left;
-    font-size: 18px;
+    font-size: larger;
 }
-
+header div {
+    float: right;
+    font-size: larger;
+}
 
 h1 {
     margin: 100px 0 50px 0;
@@ -20,9 +28,13 @@ p {
 }
 
 button {
-    color: white;
-    background-color:rebeccapurple;
+    color: var(--button-text);
+    background-color: var(--button);
     border-radius: 5px;
     margin: 10px;
 
+}
+
+li {
+    list-style-type: none;
 }
