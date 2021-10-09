@@ -31,8 +31,36 @@ StartQuiz.addEventListener("click", function(){
     }, 1000);
 
   HeaderEl.innerHTML = QuizQuestions[0];
-  ParaEl.innerHTML = ""// for loop to create button for each array index
-  StartQuiz.style.visibility = "hidden";
- 
+  ParaEl.remove();
+  StartQuiz.remove();
+  
+  for (var i=0; i < QuizOptions1.length; i++) {
+    let options = document.createElement("button");
+    options.textContent = QuizOptions1[i];
+    document.body.appendChild(options);
+    options.setAttribute("id","option"+ i);
+
+  }
+
 }
 )
+
+document.getElementsByTagName("button").addEventListener("click",function(){
+  HeaderEl.innerHTML = QuizQuestions[1];
+  for (var i=0; i < 4; i++){
+    let removal =  getElementById(options[i]);
+    removal.remove();
+}
+
+  for (var i=0; i < QuizOptions2.length; i++) {
+    let options = document.createElement("button");
+    options.textContent = QuizOptions1[i];
+    document.body.appendChild(options);
+    options.setAttribute("id","option"+ i);
+
+    }
+}
+)
+
+
+//endQuiz function

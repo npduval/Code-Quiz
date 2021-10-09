@@ -13,7 +13,7 @@ header {
     font-size: larger;
 }
 header div {
-    float: right;
+    float: right; -m
     font-size: larger;
 }
 
@@ -32,6 +32,10 @@ button {
     background-color: var(--button);
     border-radius: 5px;
     margin: 10px;
+    width: 200px;
+    height: 100px;
+    font-size: 20px;
+
 
 }
 
