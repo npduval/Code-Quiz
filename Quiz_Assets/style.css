@@ -38,7 +38,18 @@ button {
 
 
 }
+span {
+    font-size: 18px;
+}
 
-li {
-    list-style-type: none;
+.endOfGame {
+    display: none;
+}
+
+.startPage. {
+    display: block;
+}
+
+.questionPage {
+    display: none;
 }

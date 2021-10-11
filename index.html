@@ -13,9 +13,24 @@
             <div id="time"></div>
         </header>
         <main>
-            <h1 id="header">Codeing Quiz Challenge</h1>
-            <p id="para">Anwser the following code-related questions within the time limit. Please keep in mind<br>that any incorrect awnsers will penalize your score/time by 5 seconds!</p>
-            <button id="start">Start Quiz</button>
+            <div class="startPage">
+                <h1 id="header">Codeing Quiz Challenge</h1>
+                <p id="para">Anwser the following code-related questions within the time limit. Please keep in mind<br>that any incorrect awnsers will penalize your score/time by 10 seconds!</p>
+                <button id="start">Start Quiz</button>
+            </div>
+            <div class="questionPage">
+                <h1 id="question"></h1>
+                <button data-index="0" id="option1"></button>
+                <button data-index="1" id="option2"></button>
+                <button data-index="2" id="option3"></button>
+                <button data-index="3" id="option4"></button>
+            </div>
+            <div class="endOfGame">
+                <h1>All done!</h1>
+                <h2 id="score"></h2>
+                <span>Enter Intitials Here <input type="text" id="initials"></span>
+                <button type="submit" id="submitBtn" >Submit</button>
+            </div>
         </main>
           
 
