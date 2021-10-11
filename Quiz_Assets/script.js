@@ -101,7 +101,7 @@ function endQuiz(){
 
 //submit button at end of game saves initials and score
 SubmitEl.addEventListener("click", function(event) {
-    window.location.assign("./HighScore/highscores.html") 
+    window.location.assign("https://npduval.github.io/Code-Quiz/HighScore/highscores.html") 
     let score = localStorage.getItem("score");
     if (!score){
         score = 0;
