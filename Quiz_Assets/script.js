@@ -101,6 +101,7 @@ function endQuiz(){
 
 //submit button at end of game saves initials and score
 SubmitEl.addEventListener("click", function(event) {
+    window.location.assign("./HighScore/highscores.html") 
     let score = localStorage.getItem("score");
     if (!score){
         score = 0;
@@ -111,16 +112,9 @@ SubmitEl.addEventListener("click", function(event) {
     }
 
 localStorage.setItem("scoreRecord", JSON.stringify(scoreRecord));
-renderScore();
 
 }
 );
-
-function renderScore(){
-    let highScore = JSON.parse(localStorage.getItem("scoreRecord"));
-    document.querySelector("xxxxx").textContent = highScore
-
-}
 
 
 OptionEl1.addEventListener("click", evaluateValue);

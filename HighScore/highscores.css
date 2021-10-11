@@ -8,6 +8,10 @@ h1 {
     font-size: xx-large;
 }
 
+p {
+    font-size: larger;
+}
+
 button {
     color: white;
     background-color:rebeccapurple;
